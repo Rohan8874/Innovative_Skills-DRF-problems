@@ -15,7 +15,7 @@ class AllArea(AllShape):
     def area(self):
         if self.choice=='circle':
             radius = float(input('Enter the redius of the circle: '))
-            print('Areal of the circle:',super().calculate_circle_area(radius))
+            print('Area of the circle:',super().calculate_circle_area(radius))
         elif self.choice=='rectangle':
             length = float(input('Enter the length of rectangle: '))
             width = float(input('Enter the width of rectangle: '))
